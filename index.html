@@ -12,7 +12,7 @@
     
    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
      <div class="container-fluid"> 
-     <ul class="nav nav-pills">
+     <ul class="nav nav-pills d-none d-sm-flex">
         <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
         </li>
@@ -22,7 +22,7 @@
         </li>
      </ul>
      
-     <a class="navbar-brand d-none d-sm-flex" href="#">
+     <a class="navbar-brand" href="#">
         <img src="logoTOP.png" width="40" height="40" alt="logo">
      </a>
 
@@ -33,6 +33,39 @@
      </div>
    </nav> 
 
+<div class="offcanvas offcanvas-start bg-dark text-white" 
+     tabindex="-1" 
+     id="menumobile">
+
+  <div class="offcanvas-header">
+     <img src="logoTOP.png" width="35">
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+
+  <div class="offcanvas-body">
+
+    <ul class="nav flex-column">
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#faqs">FAQs</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#contacto">Contacto</a>
+      </li>
+
+    </ul>
+
+  </div>
+</div>
 
   
 <section class="py-5 bg-light">
@@ -246,19 +279,16 @@
 
   <div class="container">
 
-    <div class="row text-center text-md-start">
+    <div class="row text-center">
       
-      <div class="col-md-4 mb-3">
+      <div class="col-md-4">
         <h5 class="fw-bold">tunegocio.web</h5>
-        <p class="small text-muted">
-          Creamos páginas web modernas para emprendedores y negocios que quieren crecer online.
-        </p>
       </div>
     
-      <div class="col-md-4 mb-3">
+      <div class="col-md-4">
         <h6 class="fw-semibold">Redes</h6>
 
-        <div class="d-flex justify-content-center justify-content-md-start gap-3 fs-4">
+        <div class="d-flex justify-content-center  gap-3 fs-4">
 
           <a href="#" class="text-light">
             <i class="bi bi-instagram"></i>
@@ -275,7 +305,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 mb-3">
+      <div class="col-md-4">
             <div class="text-center small text-white">
             © 2026 Todos los derechos reservados
             </div>
