@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="./js/main.js"></script>
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>Portafolio</title>
 </head>
@@ -47,19 +48,19 @@
     <ul class="nav flex-column">
 
       <li class="nav-item">
-        <a class="nav-link text-white" href="#">Home</a>
+        <a class="nav-link text-white offcanvas-link" href="#">Home</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+        <a class="nav-link text-white offcanvas-link" href="#proyectos" data-bs-target="#menumobile">Proyectos</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link text-white" href="#faqs">FAQs</a>
+        <a class="nav-link text-white offcanvas-link" href="#faqAccordion">FAQs</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link text-white" href="#contacto">Contacto</a>
+        <a class="nav-link text-white offcanvas-link" href="#contacto">Contacto</a>
       </li>
 
     </ul>
@@ -136,7 +137,7 @@
        
                 <div class="col-12 col-md-4 col-lg-3">
                       <div class="card h-100 shadow-sm border-0 rounded-4">
-                        <img src="logodani.png" class="card-img-top" alt="">
+                        <img src="logodani.png" class="card-img-top" alt="logo-dani-fit">
                         <div class="card-body text-center d-flex flex-column  justify-content-between">
                             <h5 class="card-title fw-bold">dani fit</h5>
                             <p class="card-text small text-muted">Para entrenadora personal fitnnes</p>
@@ -147,7 +148,7 @@
 
                 <div class="col-12 col-md-4 col-lg-3">
                      <div class="card h-100 shadow-sm border-0 rounded-4">
-                        <img src="quina.png" class="card-img-top" alt="">
+                        <img src="quina.png" class="card-img-top" alt="logo-quinna">
                         <div class="card-body text-center d-flex flex-column  justify-content-between">
                             <h5 class="card-title fw-bold">Quinna Handpan</h5>
                             <p class="card-text small text-muted">Para instrumento musical Handpan</p>
@@ -157,7 +158,7 @@
                 </div>
                 <div class="col-12 col-md-4 col-lg-3">
                       <div class="card h-100 shadow-sm border-0 rounded-4">
-                        <img src="local.jpg" class="card-img-top" alt="">
+                        <img src="local.jpg" class="card-img-top" alt="imagen-confiteria">
                         <div class="card-body text-center d-flex flex-column  justify-content-between">
                             <h5 class="card-title fw-bold">DeMaris</h5>
                             <p class="card-text small text-muted">Para Confiteria y panaderia</p>
@@ -289,7 +290,7 @@
         </h5>  
       </div>
     
-      <div class="col-md-4">
+      <div class="col-md-4" id="contacto">
         <h6 class="fw-semibold">Redes</h6>
 
         <div class="d-flex justify-content-center  gap-3 fs-4">
@@ -323,6 +324,7 @@
 
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
 
