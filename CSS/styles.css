@@ -125,6 +125,12 @@ body {
   border-radius: 18px;
 }
 
+.carousel-item .carousel-logo-img {
+  object-fit: contain;
+  background: white;
+  padding: 28px;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   background: rgba(54, 81, 156, 0.164);
@@ -264,6 +270,10 @@ body {
 
   .carousel-item img {
     height: 260px;
+  }
+
+  .carousel-item .carousel-logo-img {
+    padding: 18px;
   }
 
   .btn-proyecto,
